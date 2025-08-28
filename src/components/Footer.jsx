@@ -10,9 +10,6 @@ const Footer = () => {
         color: "#f58634"
     };
 
-    const hsix = {
-        color: "white"
-    }
   return (
     
     <footer className ="text-center text-lg-start text-muted mt-5">

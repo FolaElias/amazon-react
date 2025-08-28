@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
 footer {
   background-color: #1B2432;
+}
+
+.cart-nav{
+  display: none;
 }
 
 .footer-h6,h6 {
@@ -8,4 +18,11 @@ footer {
 
 .links p {
   color: #A6B6B6;
+}
+
+@media (max-width: 900px) {
+  .cart-nav {
+    display: block;
+  }
+
 }
